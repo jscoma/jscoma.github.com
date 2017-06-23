@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Projects</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="CSS.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        
+        <!-- Google API font-->
+        <link href="https://fonts.googleapis.com/css?family=Cormorant+SC" rel="stylesheet">
+
+        <!-- Google ajax script and bootstrap-->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+        
+        <script>
+            $(document).ready(function () {
+                $("#fade").hide().fadeIn(2000);
+            });
+        </script>
+       
+    </head>
+    <body>
+
+        <nav class="navbar" style="background-color: #FFFFFF; font-size:2.3em; margin-bottom: 0; ">
+            <div class="container-fluid">
+                <div class="navbar-header pull-left" style="width: 50%;">
+                    <div style="font-family: 'Cormorant SC', serif; font-size: 2em; text-align: center;">
+                        Jade L. Scoma
+                    </div>
+                </div>
+                <ul class="nav navbar-nav pull-right" style="padding-top: .5em; width: 40%;">
+                    <li><a href="index.html">About</a></li>
+                    <li><a href="Background.html">Background</a></li>
+                    <li><a style="background-color: #dddddd" href="Projects.html">Projects</a></li>
+                    <li><a href="Contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        
+        <hr style=" height: 3px; clear:both; background-color: #000000; margin-top: 0" >
+        
+        <div class="container" style="width: 100%; margin:0; font-size:1.3em;">
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="PersonalPic.gif" class="img-responsive center-block" alt="PersonalPic"> 
+                </div>
+                <div class="col-md-6 pull-right" id="fade" style="font-size: 1.3em">
+                    <p>
+                        Here are a few of the projects I have coded, in both school and my free time. Hover over each link to
+                        find out more about the project.
+                    </p>
+                    <p style="text-indent: 0">
+                        <br>
+                        Projects:<br>
+                        <a href="/Projects/MyCalculator.zip" data-toggle="tooltip" title="This is a calculator made with the Java Swing Library and Netbeans IDE" download> Calculator Project </a> <br>
+                        <a href="/Projects/SAD Project.zip" data-toggle="tooltip" title="This is my senior real world project for Systems Analysis and Design II. This ADO.NET application was made using C#, html, CSS, and SQL with MySQL (worked with a team of 3)" download> Diabetic Health Research Project </a> <br>
+                        <a href="/Projects/MyCalculator.zip" data-toggle="tooltip" title="This project was created in my free time with the Unity Engine and C#. The premise is to grab all the cube tokens and make it to the goal." download> Unity Project: Roll-A-Ball </a> <br>
+                        <a href="/Projects/Alien Breakout.zip" data-toggle="tooltip" title="This project was created in my free time with the Unity Engine and C#. The premise is to hit the aliens with the ball and get the highest score possible." download> Unity Project: Alien Breakout </a> <br>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
+
